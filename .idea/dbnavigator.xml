@@ -13,10 +13,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="27b45b64-bc33-419b-a9ce-ee52ab3d9815">
-      <console name="suni" type="STANDARD" schema="soft_uni" session="Main"><![CDATA[select name from projects as p
-join employees_projects as ep on p.project_id = ep.project_id
-join employees as emp on emp.employee_id = ep.employee_id
-where salary > 56000;]]></console>
+      <console name="suni" type="STANDARD" schema="soft_uni" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
